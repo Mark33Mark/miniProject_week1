@@ -1,0 +1,192 @@
+
+  <!-------------------------------------------------------------------------------------------------------------------------- >
+  < -- University of Sydney - FSF Coding Bootcamp ---------------------------------------------------------------------------- >
+  < -- week 1, unit 1 Mini Project ------------------------------------------------------------------------------------------- > 
+  < -- project commenced: 19-Aug-2021 ---------------------------------------------------------------------------------------- > 
+  < -------------------------------------------------------------------------------------------------------------------------- > 
+  
+
+  < --▼ Configuration ▼-------------------------------------------------------------------------------------------------------->
+
+<!doctype html lang="en-au"/>
+<html class="no-js" lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+
+    <title>| A Landing Page |</title>
+  
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="A Landing Page" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/ops/PNG_MarkWatson_transparent_200x248.png" />
+    <meta property="og:image:width" content="150" />
+    <meta property="og:image:height" content="150" />
+    <meta property="og:site_name" content="Watsonised by Mark Watson"/>
+    <meta property="og:description" content="Mark Watson is a creative and talented programmer and web developer." />
+ 
+    <link rel="apple-touch-icon" href="icon.ico" />
+    
+    <!-- Remember to place your favicon.ico in the root directory -->
+    <link rel="icon" href="img/ops/favicon.ico" />
+   
+    <link rel="stylesheet" href="css/project_specific.css" />
+
+    <!-- Fix for HTML5 semantic elements to work in old versions of IE-------------------------------------------------------->
+    
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <!--▼ The Document Framework ▼---------------------------------------------------------------------------------------------->
+  <body>
+    <header>
+      <div class="leftHeader">
+        <div class = "logo">
+          <a href="#">
+            <img src="img/SVG_logoGeneric.svg" alt="your company logo">  
+          </a>
+        </div>
+      </div>
+            
+      <div class="midHeader">
+       <h1>## Your Company ##</h1>
+      </div>
+
+      <div class="rightHeader"> </div>
+
+      <div class="btmRow" id="myHeader">
+        <nav class="topnav">
+          <a href="#">Home</a>
+          <a href="#">Our team</a> 
+          <a href="#">Projects</a> 
+          <a href="#">Contact</a> 
+
+          <!-- Search form to navigate through the website. -->
+          <form class="search-form">
+            <input type="search" name="q" placeholder="Search Me" />
+            <input type="submit" value="Go!" />
+          </form>
+        </nav>
+      </div>
+    </header>
+
+    <!------------------------------------------------------------------------------------------------------------------------>
+    <main class="content">
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, <time>Dec 7, 2017</time></h5>
+            <div class="fakeimg" >
+                <img src="./img/ops/PNG_coming_soon_400x400.png" alt="Image showing our Corporate Value" class="centre-pics-lh" />
+                <figcaption class="centre-caption-rh">Our corporate values - in a picture</figcaption>
+            </div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          </div>
+          <div class="card">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Sep 2, 2017</h5>
+            <div class="fakeimg">
+              <img src="./img/ops/PNG_coming_soon_400x400.png" alt="picture 3" class="centre-pics-rh" />
+              <figcaption class="centre-caption-lh">Our team - we are not a large corporate team, but we are fierce.  Quick to respond, adapt and grow to in rythym with our growth goals.</figcaption>
+            </div>
+            
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          </div>
+          <!------------------------------------------------------------------------------------------------------------------------>  
+          <div class="card">
+            <form class="visitor">
+              <h3>Hi, please register with us</h3>
+              <p>Provide us with your email so that we can stay in contact.
+                 There is always the opt out option in our emails if you think we are over doing it.
+              </p>
+              <div class="visitor-form-row">
+                <div class="col-form-label">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-form-input">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="visitor-form-row">
+                <div class="col-form-label">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-form-input">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+              </div>
+              <div class="visitor-form-row">
+                <div class="col-form-label">
+                  <label for="email">Email Address</label>
+                </div>
+                <div class="col-form-input">
+                  <input type="text" id="email" name="emailAddress" placeholder="Your email address..">
+                </div>
+              </div> 
+              <div class="row">
+                <input type="submit" value="send">
+              </div>
+           </form>
+         </div>
+        </div>
+
+        <aside>
+          <div class="rightcolumn">
+            <div class="card">
+              <div class="placement-wrap1">
+                <h3>Gallery</h3>
+                  <div class="fakeimg">
+                    <img src="./img/ops/PNG_coming_soon_400x400.png" height="80px" width="80px" alt="picture 1" />
+                    <figcaption><strong>photo 1:</strong> Great photograph. Date taken: <date>1-Jul-2010</date></figcaption>
+                  </div>
+                  <div class="fakeimg">
+                    <img src="./img/ops/PNG_coming_soon_400x400.png" height="80px" width="80px" alt="picture 2" />
+                    <figcaption><strong>photo 2:</strong> Great photograph. Date taken: <date>1-Jul-2010</date></figcaption>
+                  </div>
+                  <div class="fakeimg">
+                    <img src="./img/ops/PNG_coming_soon_400x400.png" height="80px" width="80px" alt="picture 3" />
+                    <figcaption><strong>photo 3:</strong> Great photograph. Date taken: <date>1-Jul-2010</date></figcaption>
+                  </div>
+                  <div class="fakeimg">
+                    <img src="./img/ops/PNG_coming_soon_400x400.png" height="80px" width="80px" alt="picture 4" />
+                    <figcaption><strong>photo 4:</strong> Great photograph. Date taken: <date>1-Jul-2010</date></figcaption>
+                  </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="social">
+                <h3>Follow Me</h3>
+                <p>We would love to hear from you, please choose one of the following:</p>
+                <ul class="funList">
+                  <li><a href="#">Oh I do like to be beside the seaside</a></li>
+                  <li><a href="#">Oh I do like to be beside the sea</a></li>
+                  <li><a href="#">Although in the North of England</a></li>
+                  <li><a href="#">It never stops raining</a></li>
+                  <li><a href="#">Oh well...</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <!-- Footer -------------------------------------------------------------------------------------------------------------->
+    <footer id="myFooter">
+      <h2>Footer</h2>
+      <p class="copyright">© Copyright 2021 Watsonised | All rights reversed.</p>
+    </footer>
+
+  </body>
+</html>
+
